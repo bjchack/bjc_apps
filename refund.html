@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Send Refund</title>
+<style>
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+
+  .guide-text {
+    font-size: 16px;
+    margin: 10px 0 20px 0;
+    max-width: 300px;
+    line-height: 1.4;
+  }
+
+  input[type="text"] {
+    width: 220px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+  }
+
+  input[type="text"]::placeholder {
+    color: #888;
+  }
+
+  .btn-box {
+    width: 220px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+    color: #000;
+  }
+
+  #sendRefundBtn {
+    background: linear-gradient(45deg, #ff9800, #f44336);
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(255,152,0,0.5), 0 4px 10px rgba(244,67,54,0.5);
+  }
+
+  #sendRefundBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255,152,0,0.6), 0 6px 12px rgba(244,67,54,0.6);
+  }
+
+  /* Back button (round icon) */
+  #backBtn {
+    background-color: orange;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 20px;
+  }
+
+  #backBtn:hover {
+    background-color: #ffc107;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+
+<div class="guide-text">
+  I-type ang mobile number para mag-refund.<br>
+  Enter the mobile number to send refund.
+</div>
+
+<input type="text" id="mobileNumber" placeholder="09xxxxxxxxx" maxlength="11">
+
+<div class="btn-box" id="sendRefundBtn" onclick="sendRefund()">SEND REFUND</div>
+
+<div class="btn-box" id="backBtn" onclick="window.location.href='index.html'">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+    <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z"/>
+  </svg>
+</div>
+
+<div class="footer">
+  &copy; 2026 BJC Programming. All rights reserved.
+</div>
+
+<script>
+function sendRefund() {
+  const input = document.getElementById('mobileNumber').value.trim();
+
+  // Validate number
+  const numberPattern = /^09\d{9}$/;
+  if(!numberPattern.test(input)) {
+    alert("Please enter a valid 11-digit mobile number starting with 09.");
+    return;
+  }
+
+  const phone = "8724";
+  const message = `RF ${input}`;
+  window.location.href = `sms:${phone}?body=${encodeURIComponent(message)}`;
+}
+</script>
+
+</body>
+</html>

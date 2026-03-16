@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products</title>
+
+<style>
+body{
+  background:#121212;
+  font-family:Arial;
+  color:white;
+  margin:0;
+  padding:20px;
+}
+
+h2{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:15px;
+}
+
+.card{
+  background:#1e1e1e;
+  padding:10px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 0 8px black;
+}
+
+.card img{
+  width:100%;
+  border-radius:8px;
+}
+
+.price{
+  color:#00ff9d;
+  font-weight:bold;
+  margin-top:5px;
+}
+
+.desc{
+  font-size:14px;
+  color:#ccc;
+  margin-top:5px;
+}
+
+.inquire{
+  display:block;
+  margin-top:8px;
+  padding:8px;
+  background:#ff9800;
+  color:black;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
+}
+
+.inquire:hover{
+  background:#e68900;
+}
+
+.back{
+  margin-top:20px;
+  width:100%;
+  padding:10px;
+  border:none;
+  background:#444;
+  color:white;
+  border-radius:6px;
+}
+
+.footer{
+  text-align:center;
+  margin-top:20px;
+  font-size:12px;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Our Products</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="images/zlt.jpg">
+<div class="price">₱950</div>
+<div class="desc">ZLT S10G OPENLINE</div>
+<a class="inquire"
+href="sms:09302951895?body=From: BJC Eloading app Inquiry ZLT S10G OPENLINE Price ₱950 Please Reply Sir.">
+Inquire
+</a>
+</div>
+
+<div class="card">
+<img src="images/5g.png">
+<div class="price">₱890</div>
+<div class="desc">WIFI 4G/5G OPENLINE READY TO USE Buy now</div>
+<a class="inquire"
+href="sms:09302951895?body=From: BJC Eloading app Inquiry">
+Inquire
+</a>
+</div>
+
+<div class="card">
+<img src="images/soon.jpg">
+<div class="price">₱100</div>
+<div class="desc">Sold</div>
+<a class="inquire"
+href="sms:09302951895?body=From: BJC Eloading app Inquiry">
+Inquire
+</a>
+</div>
+
+<div class="card">
+<img src="images/soon.jpg">
+<div class="price">₱100</div>
+<div class="desc">Sold</div>
+<a class="inquire"
+href="sms:09302951895?body=From: BJC Eloading app Inquiry">
+Inquire
+</a>
+</div>
+
+</div>
+
+<button class="back" onclick="window.location.href='index.html'">
+⬅ Back
+</button>
+
+<div class="footer">
+© 2026 BJC Programming
+</div>
+
+</body>
+</html>

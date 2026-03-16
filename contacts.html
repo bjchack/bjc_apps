@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact BJC BUSINESS</title>
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f4f4f4;
+}
+
+/* COVER */
+.cover{
+  width:100%;
+  height:200px;
+  background:url("images/cover.png") center/cover no-repeat;
+  position:relative;
+}
+
+/* MENU ICON */
+.menu-icon{
+  position:absolute;
+  top:10px;
+  left:10px;
+  font-size:20px;
+  color:white;
+  cursor:pointer;
+  background:rgba(0,0,0,0.4);
+  padding:5px 10px;
+  border-radius:5px;
+}
+
+/* DROPDOWN */
+.menu{
+  display:none;
+  position:absolute;
+  top:50px;
+  left:15px;
+  background:white;
+  border-radius:5px;
+  box-shadow:0 0 10px rgba(0,0,0,0.3);
+  overflow:hidden;
+  z-index:100;
+}
+
+.menu a{
+  display:block;
+  padding:12px 20px;
+  text-decoration:none;
+  color:black;
+  border-bottom:1px solid #eee;
+}
+
+.menu a:hover{
+  background:#f0f0f0;
+}
+
+/* CONTENT */
+.content{
+  padding:20px;
+  text-align:center;
+}
+
+/* CONTACT FORM */
+.contact-form{
+  background:white;
+  max-width:400px;
+  margin:35px auto;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border:1px solid #ccc;
+  border-radius:5px;
+  font-size:14px;
+  box-sizing:border-box;
+}
+
+.contact-form button{
+  width:100%;
+  padding:12px;
+  background:#007BFF;
+  color:white;
+  border:none;
+  border-radius:5px;
+  font-size:16px;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+.contact-form button:hover{
+  background:#0056b3;
+}
+
+#success{
+  display:none;
+  text-align:center;
+  background:#28a745;
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  margin-top:10px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:15px;
+  background:#222;
+  color:white;
+  font-size:14px;
+  margin-top:20px;
+}
+
+footer a{
+  color:#1877f2;
+  text-decoration:none;
+}
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  <div class="menu" id="menu">
+    <a href="index.html">Home</a>
+    <a href="tarp.html">TARP FREE DOWLOAD</a>
+    <a href="contacts.html">Contact</a>
+    <a href="about.html">About</a>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+  <h2>Contact BJC BUSINESS</h2>
+
+  <div class="contact-form">
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="success">Message Sent Successfully ✅</div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+&copy; 2026 BJC BUSINESS. All Rights Reserved. <br>
+Follow us on Facebook: 
+<a href="https://www.facebook.com/bossjunjun09" target="_blank">Jun Cruz</a>
+</footer>
+
+<script>
+// MENU TOGGLE
+function toggleMenu(){
+  var menu = document.getElementById("menu");
+  menu.style.display = (menu.style.display==="block") ? "none" : "block";
+}
+
+// CONTACT FORM AJAX
+document.getElementById("contact-form").addEventListener("submit", function(e){
+  e.preventDefault();
+  let formData = new FormData(this);
+  fetch("https://formsubmit.co/ajax/hackerownme@gmail.com", {
+    method:"POST",
+    body: formData
+  })
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("success").style.display="block";
+    document.getElementById("contact-form").reset();
+  })
+  .catch(error => alert("Error sending message"));
+});
+</script>
+
+</body>
+</html>

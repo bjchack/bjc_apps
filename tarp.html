@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download Tarpaulin</title>
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f4f4f4;
+}
+
+/* COVER */
+.cover{
+  width:100%;
+  height:200px;
+  background:url("images/cover.png") center/cover no-repeat;
+  position:relative;
+}
+
+/* MENU ICON */
+.menu-icon{
+  position:absolute;
+  top:10px;
+  left:10px;
+  font-size:20px;
+  color:white;
+  cursor:pointer;
+  background:rgba(0,0,0,0.4);
+  padding:5px 10px;
+  border-radius:5px;
+}
+
+/* DROPDOWN */
+.menu{
+  display:none;
+  position:absolute;
+  top:50px;
+  left:15px;
+  background:white;
+  border-radius:5px;
+  box-shadow:0 0 10px rgba(0,0,0,0.3);
+  overflow:hidden;
+  z-index:100;
+}
+
+.menu a{
+  display:block;
+  padding:12px 20px;
+  text-decoration:none;
+  color:black;
+  border-bottom:1px solid #eee;
+}
+
+.menu a:hover{
+  background:#f0f0f0;
+}
+
+/* CONTENT */
+.content{
+  padding:20px;
+  text-align:center;
+}
+
+/* TARPAULIN PREVIEW */
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.container button:hover {
+    background-color: #45a049;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:15px;
+  background:#222;
+  color:white;
+  font-size:14px;
+  margin-top:20px;
+}
+
+footer a{
+  color:#1877f2;
+  text-decoration:none;
+}
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  <div class="menu" id="menu">
+    <a href="index.html">Home</a>
+    <a href="tarp.html">TARP FREE DOWNLOAD</a>
+    <a href="contacts.html">Contact</a>
+    <a href="about.html">About</a>
+  </div>
+</div>
+
+
+
+<script>
+// MENU TOGGLE
+function toggleMenu(){
+  var menu = document.getElementById("menu");
+  menu.style.display = (menu.style.display==="block") ? "none" : "block";
+}
+</script>
+<!-- CONTENT -->
+<div class="content">
+  <h2>Tarpaulin Preview</h2>
+  <div class="container">
+      <img src="images/tarp.png" alt="Tarpaulin Image">
+      <a href="images/tarp.png" download>
+          <button>Free Download</button>
+      </a>
+  </div>
+</div>
+<!-- CONTENT -->
+<div class="content">
+  <h2>Tarpaulin Preview</h2>
+  <div class="container">
+      <img src="images/tarp1.png" alt="Tarpaulin Image">
+      <a href="images/tarp1.png" download>
+          <button>Free Download</button>
+      </a>
+  </div>
+</div>
+<!-- FIRST CONTENT: Testimony -->
+<div class="content">
+  <h2>Customer Testimony</h2>
+  <div class="container">
+      <img src="images/user3.jpg" alt="Customer Testimony">
+<p>
+Nagsimula ang aming customer na gumamit ng tarpaulin noong pandemya. 
+Sa panahong iyon, kailangan nilang ipromote ang kanilang negosyo nang safe at socially distanced. 
+Natutuwa sila dahil maliwanag ang kulay, matibay ang material, at tumulong ito para mas mapansin ang kanilang serbisyo kahit limitado ang physical na marketing. 
+Marami na rin ang nakagamit at nakakita ng magandang resulta — sumali ka na rin at mapansin ka rin!
+</p>
+  </div>
+</div>
+
+<!-- SECOND CONTENT: Encouraging Image -->
+<div class="content">
+  <h2>Get Inspired!</h2>
+  <div class="container">
+      <img src="images/user2.jpg" alt="Encouraging Tarpaulin">
+<p>
+Marami na ang nagsimula — maging inspirasyon at sumali rin! 
+Sa halagang 300 pesos, puwede ka nang magsimula kahit maliit na puhunan lang. 
+Pwede mo itong palaguin kahit sa bahay lang, walang hadlang sa kahirapan basta may tiwala sa Diyos.
+</p>
+  </div>
+</div>
+<!-- FOOTER -->
+<footer>
+&copy; 2026 BJC BUSINESS. All Rights Reserved. <br>
+Follow us on Facebook: <a href="https://www.facebook.com/bossjunjun09" target="_blank">Jun Cruz</a>
+</footer>
+</body>
+</html>

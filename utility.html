@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utility Tools - BJC</title>
+  <style>
+    body {
+      margin:0;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #ccc;
+    }
+
+    header {
+      padding: 12px;
+      background: #1e1e1e;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #00ff9d;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 6px;
+      background: #444;
+      color: white;
+      cursor: pointer;
+    }
+
+    #productButtons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    #productButtons button {
+      padding: 12px;
+      border:none;
+      border-radius:6px;
+      background:#ff9800;
+      color:black;
+      font-weight:bold;
+      cursor:pointer;
+      transition:0.2s;
+      font-size:16px;
+    }
+
+    #productButtons button:hover {
+      background:#ffaa33;
+    }
+
+    #utilityContent {
+      margin: 20px 10px;
+      padding: 15px;
+      background:#1e1e1e;
+      border-radius:8px;
+      box-shadow: 0 0 6px black;
+      min-height:200px;
+    }
+
+    footer {
+      text-align:center;
+      padding:12px;
+      font-size:12px;
+      color:#555;
+      background:#1a1a1a;
+      margin-top:20px;
+    }
+
+    .coming-soon {
+      text-align:center;
+      color:#00ff9d;
+      font-size:18px;
+      margin-top:40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Utility Tools</header>
+
+  <button class="back-btn" onclick="location.href='index.html'">⬅ Back</button>
+
+  <div style="text-align:center; margin:15px 0;">
+    <button onclick="toggleSlide()" style="padding:8px 14px; border:none; border-radius:6px; background:#444; color:white; cursor:pointer;">
+      Product Codes
+    </button>
+  </div>
+
+  <div class="slide-up" id="productButtons" style="display:none;">
+    <button onclick="loadUtility('meralco')">Meralco</button>
+    <button onclick="showComingSoon('DavaoLight')">DavaoLight</button>
+    <button onclick="showComingSoon('WaterBill')">Water Bill</button>
+  </div>
+
+  <div id="utilityContent">
+    <p class="coming-soon">Select a product code above to view details.</p>
+  </div>
+
+  <footer>© 2026 BJC Programming</footer>
+
+  <script>
+    function toggleSlide() {
+      const slide = document.getElementById('productButtons');
+      slide.style.display = (slide.style.display === 'flex') ? 'none' : 'flex';
+    }
+
+    // Load actual JS files for active promos
+    function loadUtility(name) {
+      const contentDiv = document.getElementById('utilityContent');
+
+      // Remove previous script if exists
+      const oldScript = document.getElementById('utilityScript');
+      if(oldScript) oldScript.remove();
+
+      contentDiv.innerHTML = '<p class="coming-soon">Loading...</p>';
+
+      const script = document.createElement('script');
+      script.id = 'utilityScript';
+      script.src = `bills/${name}.js`;
+      script.onload = () => console.log(`${name}.js loaded`);
+      script.onerror = () => contentDiv.innerHTML = `<p class="coming-soon">Failed to load ${name}.js</p>`;
+      document.body.appendChild(script);
+    }
+
+    // Show "Coming Soon" for placeholders
+    function showComingSoon(name) {
+      const contentDiv = document.getElementById('utilityContent');
+
+      // Remove previous script if exists
+      const oldScript = document.getElementById('utilityScript');
+      if(oldScript) oldScript.remove();
+
+      contentDiv.innerHTML = `
+        <h3>${name} Utility</h3>
+        <p class="coming-soon">⚡ Coming Soon for Update PayBills ⚡</p>
+      `;
+    }
+  </script>
+
+</body>
+</html>

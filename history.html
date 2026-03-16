@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BJC Eload History</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body {
+    background: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background: #1f1f1f;
+  }
+  td {
+    background: #1a1a1a;
+  }
+  button {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #007bff;
+    color: #fff;
+  }
+  button:hover {
+    background: #0056b3;
+  }
+  .center {
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<h2>BJC Eload History</h2>
+
+<table id="historyTable">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Number</th>
+      <th>Promo Code</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- History rows will appear here -->
+  </tbody>
+</table>
+
+<div class="center">
+  <button onclick="clearHistory()">Clear History</button>
+  <button onclick="goBack()">Back</button>
+</div>
+
+<script>
+// Load history from localStorage
+function loadHistory() {
+  const history = JSON.parse(localStorage.getItem('loadHistory') || '[]');
+  const tbody = document.querySelector('#historyTable tbody');
+  tbody.innerHTML = '';
+
+  history.forEach((item, index) => {
+    const row = document.createElement('tr');
+    row.innerHTML = `
+      <td>${index + 1}</td>
+      <td>${item.number}</td>
+      <td>${item.code}</td>
+      <td>${item.desc || ''}</td>
+      <td>${item.price ? 'P' + item.price : ''}</td>
+      <td>${item.date}</td>
+    `;
+    tbody.appendChild(row);
+  });
+}
+
+// Clear localStorage history
+function clearHistory() {
+  if(confirm('Are you sure you want to clear all history?')) {
+    localStorage.removeItem('loadHistory');
+    loadHistory();
+  }
+}
+
+// Go back to main POS page
+function goBack() {
+  window.location.href = 'index.html'; // Adjust if your main POS page has a different filename
+}
+
+// Initial load
+loadHistory();
+</script>
+
+</body>
+</html>
