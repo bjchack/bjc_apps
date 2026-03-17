@@ -1,0 +1,127 @@
+[
+  {
+    "code": "BIZ199",
+    "desc": "15GB Data + Free 1GB Daily for Facebook Messenger, Whatsapp, Skype, Viber, Zoom, and Microsoft Teams",
+    "days": "7 days"
+  },
+  {
+    "code": "BIZ599",
+    "desc": "40GB Data + Free 1GB Daily for Facebook Messenger, Whatsapp, Skype, Viber, Zoom, and Microsoft Teams",
+    "days": "30 days"
+  },
+  {
+    "code": "BIZ799",
+    "desc": "60GB Data + Free 1GB Daily for Facebook Messenger, Whatsapp, Skype, Viber, Zoom, and Microsoft Teams",
+    "days": "30 days"
+  },
+  {
+    "code": "BIZ999",
+    "desc": "70GB Data + Free 1GB Daily for Facebook Messenger, Whatsapp, Skype, Viber, Zoom, and Microsoft Teams",
+    "days": "30 days"
+  },
+  {
+    "code": "BIZ1499",
+    "desc": "100GB Data + Free 1GB Daily for Facebook Messenger, Whatsapp, Skype, Viber, Zoom, and Microsoft Teams",
+    "days": "30 days"
+  },
+  {
+    "code": "FAMSURF50",
+    "desc": "5GB Shareable open access data",
+    "days": "3 days"
+  },
+  {
+    "code": "FAMSURF199",
+    "desc": "23GB Shareable open access data + 7GB for Watch, Learn & Earn",
+    "days": "7 days"
+  },
+  {
+    "code": "FAMSURF299",
+    "desc": "43GB Shareable open access data + 7GB for Watch, Learn & Earn",
+    "days": "7 days"
+  },
+  {
+    "code": "FAMSURF499",
+    "desc": "65GB Shareable open access data + 15GB for Watch, Learn & Earn",
+    "days": "15 days"
+  },
+  {
+    "code": "FAMSURF999",
+    "desc": "170GB Shareable open access data + 30GB for Watch, Learn & Earn",
+    "days": "30 days"
+  },
+  {
+    "code": "ROAMIG299",
+    "desc": "165MB Data",
+    "days": "3 days"
+  },
+  {
+    "code": "RVIBER299",
+    "desc": "165 MB Data",
+    "days": "3 days"
+  },
+  {
+    "code": "RSURF499",
+    "desc": "300MB Data",
+    "days": "1 day"
+  },
+  {
+    "code": "RVIBER499",
+    "desc": "300MB Data",
+    "days": "5 days"
+  },
+  {
+    "code": "SURF99GP",
+    "desc": "9GB All Access, shareable data open to Globe Prepaid, Globe Myfi, TM, Postpaid, Platinum and even Home Prepaid WiFI. 4 users max",
+    "days": "3 days"
+  },
+  {
+    "code": "SURF249GP",
+    "desc": "20GB all-access, shareable data open to Globe Prepaid, Globe Myfi, TM, Postpaid, Platinum, and Home Prepaid WiFi. 4 users max",
+    "days": "7 days"
+  },
+  {
+    "code": "HSURF50",
+    "desc": "Available for Globe at Home Prepaid Wifi only. 5GB Open Access Data",
+    "days": "3 days"
+  },
+  {
+    "code": "HSURF199",
+    "desc": "Available for Globe at Home Prepaid Wifi only. Up to 30GB 23GB + 1GB Daily for Watch, Learn, & Earn",
+    "days": "7 days"
+  },
+  {
+    "code": "HSURF599",
+    "desc": "Available for Globe at Home Prepaid Wifi only. 75GB (60 GB Open Access + 1 GB daily for Watch, Learn, and Earn)",
+    "days": "15 days"
+  },
+  {
+    "code": "HSURF999",
+    "desc": "Available for Globe and Home Prepaid Wifi only. Up to 100GB 70GB + FREE 1GB Daily for Watch, Learn, & Earn",
+    "days": "30 days"
+  },
+  {
+    "code": "HSURF1499",
+    "desc": "Available for Globe at Home Prepaid Wifi only. Up to 150GB 120GB + FREE 1GB Daily for Watch, Learn, & Earn",
+    "days": "30 days"
+  },
+  {
+    "code": "FSUNLI399",
+    "desc": "Prepaid Wifi Unlimited",
+    "days": "7 days"
+  },
+  {
+    "code": "FSURF399",
+    "desc": "30GB",
+    "days": "No Expiry"
+  },
+  {
+    "code": "FSURF599",
+    "desc": "55GB",
+    "days": "No Expiry"
+  },
+  {
+    "code": "FSURF699",
+    "desc": "60GB",
+    "days": "No Expiry"
+  }
+]

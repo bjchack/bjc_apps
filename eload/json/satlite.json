@@ -1,0 +1,21 @@
+[
+  {"code":"SLT10","desc":"Pinaka-affordable na Pay TV Load with up to 26 channels!","days":"3 days","price":10},
+  {"code":"SLT15","desc":"Pinasulit na load with Viva Cinema Nick Jr. and up to 46 channels!","days":"3 days","price":15},
+  {"code":"SLT25","desc":"Pinasaya na load with Cinema One Warner TV and up to 59 channels!","days":"3 days","price":25},
+  {"code":"SL49","desc":"Pinaka-affordable na Pay TV Load with up to 26 channels!","days":"30 days","price":49},
+  {"code":"SL99","desc":"Pinasulit na load with Viva Cinema Nick Jr. and up to 46 channels!","days":"30 days","price":99},
+  {"code":"SL149","desc":"Pinasaya na load with Cinema One Warner TV and up to 53 channels!","days":"30 days","price":149},
+  {"code":"SL199","desc":"Sulit-Saya na load na paborito ng lahat with up to 59 channels!","days":"30 days","price":199},
+  {"code":"SL299","desc":"Kumpleto with NBA TV Philippines at up to 65 channels!","days":"30 days","price":299},
+  {"code":"SL99M3","desc":"(SRP: P279) Watch up to 46 channels na pwedeng ma-enjoy ng buong pamilya.","days":"90 days","price":279},
+  {"code":"SL149M3","desc":"(SRP: P419) Watch up to 53 channels na pwedeng ma-enjoy ng buong pamilya.","days":"90 days","price":419},
+  {"code":"SL49M3","desc":"3 MONTHS – SatLite ELOAD 49","days":"90 days","price":49},
+  {"code":"SL99M2","desc":"2 MONTHS – SatLite ELOAD 99","days":"60 days","price":99},
+  {"code":"SL149M2","desc":"2 MONTHS – SatLite ELOAD 149","days":"60 days","price":149},
+  {"code":"SL199M2","desc":"2 MONTHS – SatLite ELOAD 199","days":"60 days","price":199},
+  {"code":"SL299M2","desc":"2 MONTHS – SatLite ELOAD 299","days":"60 days","price":299},
+  {"code":"SAT99","desc":"22 Channels","days":"30 days","price":99},
+  {"code":"SAT149","desc":"50 SD CHANNELS + 6 NEW CHANNELS","days":"30 days","price":149},
+  {"code":"SAT199","desc":"33 Channels","days":"30 days","price":199},
+  {"code":"SAT299","desc":"38 Channels","days":"30 days","price":299}
+]

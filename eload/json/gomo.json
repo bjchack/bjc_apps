@@ -1,0 +1,9 @@
+[
+  {"code":"GOMO149","desc":"7GB No Expiry Data + UNLI Calls & Texts","days":"7 days"},
+  {"code":"GOMO199","desc":"Unlimited Data, Up to 10 MBPS","days":"7 days"},
+  {"code":"GOMO249","desc":"15GB No Expiry Data + UNLI Calls & Texts","days":"7 days"},
+  {"code":"GOMO449","desc":"30GB No Expiry Data + UNLI Calls & Texts","days":"7 days"},
+  {"code":"GOMO799","desc":"UNLI Data","days":"30 days"},
+  {"code":"GOMO999","desc":"Unlimited Data, Up to 10 MBPS, with Calls and Texts","days":"30 days"},
+  {"code":"GOMDATA249","desc":"Unlimited Data, Up to 10 MBPS, with Calls and Texts","days":"7 days"}
+]

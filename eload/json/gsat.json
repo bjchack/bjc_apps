@@ -1,0 +1,7 @@
+[
+  {"code":"GSAT99","desc":"GPINOY (DirectTV)","days":"30 Days","price":99},
+  {"code":"GSAT200","desc":"39 HD Channels","days":"30 Days","price":200},
+  {"code":"GSAT300","desc":"GSAT (Direct TV)","days":"30 Days","price":300},
+  {"code":"GSAT500","desc":"GSAT (Direct TV)","days":"30 Days","price":500},
+  {"code":"GSULIT69","desc":"35 TV channels and 14 radio stations","days":"30 Days","price":69}
+]

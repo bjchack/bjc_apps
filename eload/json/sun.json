@@ -1,0 +1,5 @@
+[
+  {"code":"G10","price":10,"days":"1 day","desc":"1GB Open Access"},
+  {"code":"G20","price":20,"days":"3 days","desc":"2GB Open Access"},
+  {"code":"G50","price":50,"days":"7 days","desc":"5GB Open Access"}
+]

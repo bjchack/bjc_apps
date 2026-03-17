@@ -1,0 +1,18 @@
+[
+  {"code":"Regular","desc":"5-1000","days":"N/A"},
+  {"code":"DITO99","desc":"Unli DITO voice & video call, 150 mins to other networks, Unli DITO to DITO calls and texts, sharing data & rollover","days":"15 days"},
+  {"code":"DITO109","desc":"8GB Unli DITO voice & video call, 300 mins to other networks, Unli DITO to DITO calls and texts, sharing data & rollover","days":"30 days"},
+  {"code":"DITOLVL199","desc":"6GB Unli DITO voice & video call, 300 mins to other networks, Unli text to all networks, sharing data & rollover","days":"30 days"},
+  {"code":"DITOLVL299","desc":"28GB Unli DITO voice & video call, 300 mins to other networks, Unli text to all networks, sharing data & rollover","days":"30 days"},
+  {"code":"DITOLVL499","desc":"55GB Unli DITO voice & video call, 300 mins to other networks, Unli text to all networks, sharing data & rollover","days":"30 days"},
+  {"code":"DITOLVL999","desc":"120GB Unli DITO voice & video call, 300 mins to other networks, Unli text to all networks, sharing data & rollover","days":"30 days"},
+  {"code":"DATA50","desc":"5GB mobile data","days":"7 days"},
+  {"code":"NDS10","desc":"500MB mobile data","days":"1 day"},
+  {"code":"NDS20","desc":"2GB mobile data","days":"1 day"},
+  {"code":"NDS303","desc":"3GB mobile data","days":"3 days"},
+  {"code":"LEVELUP99","desc":"7GB DATA, Unli DITO to DITO calls, 300 mins calls to other networks, Unli texts to all networks, DITO to DITO video calls (for VILTE-compatible handsets), Data Rollover","days":"30 days"},
+  {"code":"LEVELUP129","desc":"10GB DATA, Unli DITO to DITO calls, 300 mins calls to other networks, Unli texts to all networks, DITO to DITO video calls, Prime Video subscription, Data Rollover","days":"30 days"},
+  {"code":"WFIPRO490","desc":"Data Allocation 80GB – FOR 4G ONLY","days":"30 days"},
+  {"code":"PROUNLI490","desc":"Data Allocation Unlimited – FOR 5G ONLY","days":"15 days"},
+  {"code":"WIFIPRO790","desc":"Unlimited Data","days":"30 days"}
+]

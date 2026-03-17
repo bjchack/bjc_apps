@@ -1,0 +1,52 @@
+[
+  {
+    "code": "GFIBER999",
+    "desc": "Up to 100Mbps Unlimited Internet",
+    "days": "30 days"
+  },
+  {
+    "code": "GFIBER1299",
+    "desc": "Up to 100Mbps Unlimited Internet with 1 month Disney + Premium",
+    "days": "30 days"
+  },
+  {
+    "code": "GFIBER6999",
+    "desc": "Up to 50Mbps Unlimited Internet",
+    "days": "365 days"
+  },
+  {
+    "code": "GFIBER9999",
+    "desc": "Up to 100Mbps Unlimited Internet",
+    "days": "365 days"
+  },
+  {
+    "code": "FIBER399",
+    "desc": "Up to 100Mbps Unlimited Internet",
+    "days": "7 days"
+  },
+  {
+    "code": "FIBER999",
+    "desc": "Up to 50Mbps Unlimited Internet with 1 month Disney + Premium",
+    "days": "30 days"
+  },
+  {
+    "code": "FIBER9999",
+    "desc": "Up to 50Mbps Unlimited Internet with 1 month Disney + Premium",
+    "days": "365 days"
+  },
+  {
+    "code": "FIBER12999",
+    "desc": "Up to 100Mbps Unlimited Internet with 1 month Disney + Premium",
+    "days": "365 days"
+  },
+  {
+    "code": "GFIBER249",
+    "desc": "Up to 50Mbps Unli Only P36 a day",
+    "days": "7 days"
+  },
+  {
+    "code": "GFIBER749",
+    "desc": "Up to 50Mbps Unli Only P25 a day",
+    "days": "30 days"
+  }
+]

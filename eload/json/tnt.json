@@ -1,0 +1,758 @@
+[
+    {
+        "code": "REGULAR",
+        "desc": "(5 -1000)",
+        "days": ""
+    },
+    {
+        "code": "FB10",
+        "desc": "200MB Facebook Araw-araw",
+        "days": "3 days"
+    },
+    {
+        "code": "FB15",
+        "desc": "1 GB data for Facebook",
+        "days": "3 days"
+    },
+    {
+        "code": "ML15",
+        "desc": "1 GB data for Mobile Legends",
+        "days": "3 days"
+    },
+    {
+        "code": "UTP15",
+        "desc": "Unli trinet calls and Unli Trinet, 50 Allnet Texts",
+        "days": "2 days"
+    },
+    {
+        "code": "UTP20",
+        "desc": "150MB araw-araw for TikTok, IG, FB, ML + 300 MB + Unli Calls & Texts",
+        "days": "2 days"
+    },
+    {
+        "code": "UTP30",
+        "desc": "250MB araw-araw for TikTok, IG, FB, ML + 450 MB + Unli Calls & Texts. Valid for 3 days",
+        "days": "3 days"
+    },
+    {
+        "code": "UTP150",
+        "desc": "Unli Trinet Calls + 100 Texts\/day",
+        "days": "30 days"
+    },
+    {
+        "code": "TNTGIGA50",
+        "desc": "1GB Video araw-araw for YouTube, Netflix, Smart LiveStream, iWantTFC (3 GB) + 1GB",
+        "days": "3 days"
+    },
+    {
+        "code": "TNTGIGA99",
+        "desc": "1GB Video araw-araw for YouTube, Netflix, Smart LiveStream, iWantTFC (7 GB) + 2GB",
+        "days": "7 days"
+    },
+    {
+        "code": "GIGA599",
+        "desc": "1 GB VIDEO EVERY DAY for YouTube, Netflix, Smart LiveStream, iWantTFC (60 GB) + 12 GB",
+        "days": "60 days"
+    },
+    {
+        "code": "GIGA699",
+        "desc": "1 GB VIDEO EVERY DAY for YouTube, Netflix, Smart LiveStream, iWantTFC (90 GB) + 18 GB",
+        "days": "90 days"
+    },
+    {
+        "code": "GIGASTO599",
+        "desc": "1 GB STORIES EVERY DAY for TikTok, IG, FB, X, Kumu (60 GB) + 12 GB",
+        "days": "60 days"
+    },
+    {
+        "code": "GIGASTO699",
+        "desc": "1 GB STORIES EVERY DAY for TikTok, IG, FB, X, Kumu (90 GB) + 18 GB",
+        "days": "90 days"
+    },
+    {
+        "code": "GIGAMES60",
+        "desc": "1GB Games Every day for ML, PUBG Mobile, Call of Duty, Wild Rift, CoC, AoV, Clash Royale, FB Gaming, Giga Arena (3 GB) + 2GB",
+        "days": "3 days"
+    },
+    {
+        "code": "GIGAMES120",
+        "desc": "1GB Games Every dayfor ML, PUBG Mobile, Call of Duty, Wild Rift, CoC, AoV, Clash Royale, FB Gaming, Giga Arena (7 GB) + 4 GB",
+        "days": "7 days"
+    },
+    {
+        "code": "PLUACT100",
+        "desc": "PROMO LOAD P100  UNLI CALLS & TEXTS",
+        "days": "1 day"
+    },
+    {
+        "code": "PLUACT200",
+        "desc": "PROMO LOAD P200  UNLI CALLS & TEXTS",
+        "days": "2 days"
+    },
+    {
+        "code": "PLUACT300",
+        "desc": "PROMO LOAD P300  UNLI CALLS & TEXTS",
+        "days": "3 days"
+    },
+    {
+        "code": "PLUACT500",
+        "desc": "PROMO LOAD P500  UNLI CALLS & TEXTS",
+        "days": "7 days"
+    },
+    {
+        "code": "PLDATA200",
+        "desc": "2 GB Mobile Data",
+        "days": "2 days"
+    },
+    {
+        "code": "PLDATA300",
+        "desc": "3 GB Mobile Data",
+        "days": "2 days"
+    },
+    {
+        "code": "PLDATA500",
+        "desc": "7 GB Mobile Data",
+        "days": "3 days"
+    },
+    {
+        "code": "NEWGVD60",
+        "desc": "3GB Open Access Data ,1 GB VIDEO EVERY DAY for YouTube, Netflix, iWantTFC and NOW with HBO Max & Unli Allnet Texts",
+        "days": "3 days"
+    },
+    {
+        "code": "NEWGVD120",
+        "desc": "6GB Open Access Data, 1 GB VIDEO EVERY DAY for YouTube, Netflix, iWantTFC",
+        "days": "7 days"
+    },
+    {
+        "code": "GVD99",
+        "desc": "2GB+1 hr or 1GB\/day for videos (Youtube,iFlix,iWantTV,NBA,Cignal TV)",
+        "days": "7 days"
+    },
+    {
+        "code": "SFB20",
+        "desc": "150MB Araw-araw for TikTok, IG, FB, ML + 300MB + Unli Calls & Texts",
+        "days": "2 days"
+    },
+    {
+        "code": "SFB30",
+        "desc": "250 MB ARAW-ARAW for TikTok, IG, FB, ML + 450 MB + Unli Calls & Texts. Enjoy DOBLE DATA with FREE EXTRA 450 MB for all sites and apps. Soon this offer will Auto-Renew upon expiry",
+        "days": "3 days"
+    },
+    {
+        "code": "SFB49",
+        "desc": "100 MB ARAW-ARAW for TikTok, IG, FB, ML + 500 MB + Unli Calls & Texts. Enjoy DOBLE DATA with FREE EXTRA 500 MB for all sites and apps. This offer will Auto-Renew upon expiry",
+        "days": "7 days"
+    },
+    {
+        "code": "SFB99",
+        "desc": "100 MB ARAW-ARAW for TikTok, IG, FB, ML + 1.5 GB + Unli Calls & Texts. Enjoy DOBLE DATA with FREE EXTRA 1.5 GB for all sites and apps. This offer will Auto-Renew upon expiry",
+        "days": "7 days"
+    },
+    {
+        "code": "SFB199",
+        "desc": "200MB Araw-araw for TikTok, IG, FB, ML + 2GB + Unli Calls & Texts",
+        "days": "30 days"
+    },
+    {
+        "code": "ALLDATA50",
+        "desc": "2 GB. Enjoy DOBLE DATA with FREE EXTRA 2 GB for all sites and apps. Soon this offer will Auto-Renew upon expiry",
+        "days": "3 days"
+    },
+    {
+        "code": "ALLDATA99",
+        "desc": "6 GB. Enjoy DOBLE DATA with FREE EXTRA 6 GB for all sites and apps. Soon this offer will Auto-Renew upon expiry",
+        "days": "7 days"
+    },
+    {
+        "code": "ALLDATA299",
+        "desc": "24GB mobile data",
+        "days": "30 days"
+    },
+    {
+        "code": "GIF50",
+        "desc": "1GB Stories araw-araw for TikTok, IG, FB, X, Kumu (3 GB) + 1GB",
+        "days": "3 days"
+    },
+    {
+        "code": "GIF99",
+        "desc": "1GB Stories araw-araw for TikTok, IG, FB, X, Kumu (7 GB) + 2GB",
+        "days": "3 days"
+    },
+    {
+        "code": "NEWGS60",
+        "desc": "3 GB + 1 GB STORIES ARAW-ARAW para sa TikTok, IG, FB, X, Kumu (3 GB). Enjoy DOBLE DATA with FREE EXTRA 3 GB for all sites and apps",
+        "days": "3 days"
+    },
+    {
+        "code": "NEWGS120",
+        "desc": "6 GB + 1 GB STORIES ARAW-ARAW para sa TikTok, IG, FB, X, Kumu (7 GB). Enjoy DOBLE DATA with FREE EXTRA 6 GB for all sites and apps",
+        "days": "7 days"
+    },
+    {
+        "code": "PANTAWID10",
+        "desc": "100 MB + 100 Allnet Mins + 100 Allnet Texts",
+        "days": "1 day"
+    },
+    {
+        "code": "ALLDATA50",
+        "desc": "2 GB SHAREABLE DATA FOR ALL SITES",
+        "days": "3 days"
+    },
+    {
+        "code": "ALLDATA99",
+        "desc": "6 GB SHAREABLE DATA FOR ALL SITES",
+        "days": "7 days"
+    },
+    {
+        "code": "ALLDATA299",
+        "desc": "24 GB SHAREABLE DATA FOR ALL SITES",
+        "days": "30 days"
+    },
+    {
+        "code": "GPW75",
+        "desc": "2GB Power araw-araw for all Sites & Apps (6 GB) + 2GB",
+        "days": "3 days"
+    },
+    {
+        "code": "GPW149",
+        "desc": "2GB Power araw-araw for all Sites & Apps (14 GB) + 6GB",
+        "days": "7 days"
+    },
+    {
+        "code": "UNLI5G599",
+        "desc": "Unli 5G + Extra 12 GB (when you use in Non-5G areas)",
+        "days": "30 days"
+    },
+    {
+        "code": "UNLI5G799",
+        "desc": "UNLI 5G DATA + EXTRA 24GB DATA (when you use in Non-5G areas)",
+        "days": "30 days"
+    },
+    {
+        "code": "MLBB99",
+        "desc": "3 GB for Mobile Legends: Bang Bang",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MLBB199",
+        "desc": "9 GB for Mobile Legends: Bang Bang",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MLBB399",
+        "desc": "36 GB for Mobile Legends: Bang Bang",
+        "days": "No Expiry"
+    },
+    {
+        "code": "GIF299",
+        "desc": "4GB open access data + 1 GB STORIES EVERY DAY for Tiktok, IG, FB, Twitter, Kumu",
+        "days": "30 days"
+    },
+    {
+        "code": "DGSP75",
+        "desc": "3 GB + 2 GB STORIES ARAW-ARAW for TikTok, IG, FB, X, Kumu (6 GB) + FREE UNLI CALLS & TEXTS, Enjoy DOBLE DATA with FREE EXTRA 3 GB for all sites and apps",
+        "days": "3 days"
+    },
+    {
+        "code": "DGSP149",
+        "desc": "6 GB + 2 GB STORIES ARAW-ARAW para sa TikTok, IG, FB, X, Kumu (14 GB) + FREE UNLI CALLS & TEXTS. Enjoy DOBLE DATA with FREE EXTRA 6 GB for all sites and apps",
+        "days": "7 days"
+    },
+    {
+        "code": "UCT175",
+        "desc": "UNLI 5G + NON-STOP DATA when you move to Non-5G areas + UNLI CALLS & TEXTS",
+        "days": "3 days"
+    },
+    {
+        "code": "DGVP75",
+        "desc": "3GB Open Access Data, 2 GB VIDEO EVERY DAY for YouTube, Netflix, iWantTFC, Unli Allnet Calls & Unli Allnet Texts",
+        "days": "3 days"
+    },
+    {
+        "code": "DGVP149",
+        "desc": "6GB Open Access Data, 2 GB VIDEO EVERY DAY for YouTube, Netflix, iWantTFC, Unli Allnet Calls & Unli Allnet Texts",
+        "days": "7 days"
+    },
+    {
+        "code": "DGVP449",
+        "desc": "6GB Open access,2 GB VIDEO ARAW-ARAW for YouTube, Netflix, Smart LiveStream, iWantTFC,Unli Allnet Calls & Unli Allnet Texts",
+        "days": "30 days"
+    },
+    {
+        "code": "MDP149",
+        "desc": "2 GB, 50 Mins CALLS to ANY MOBILE & 50 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MDP299",
+        "desc": "8 GB + 2 GB 5G, 100 MINS CALLS to ANY mobile and landline & 100 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MDP499",
+        "desc": "26 GB + 4 GB 5G 200 MINS CALLS to ANY mobile and landline & 200 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MDP649",
+        "desc": "36 GB, 300 Mins CALLS to ANY MOBILE & 300 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MDP699",
+        "desc": "44 GB + 6 GB 5G, 300 MINS CALLS to ANY MOBILE and landline & 300 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MDP749",
+        "desc": "48 GB, 600 Mins CALLS to ANY MOBILE & 600 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MDP849",
+        "desc": "60 GB, 900 Mins CALLS to ANY MOBILE & 900 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "FBML20",
+        "desc": "1GB for FB & ML",
+        "days": "3 days"
+    },
+    {
+        "code": "FBML50",
+        "desc": "500MB FB & ML ARAW ARAW",
+        "days": "7 days"
+    },
+    {
+        "code": "TRIVID75",
+        "desc": "4 GB Open Access Data, 1 GB VIDEO EVERY DAY for YouTube, Netflix, iWantTFC, Unli Allnet Calls & Unli Allnet Texts",
+        "days": "3 days"
+    },
+    {
+        "code": "TRIVID149",
+        "desc": "8GB 1 GB VIDEO EVERY DAY for YouTube, Netflix, iWantTFC, Unli Allnet Calls & Unli Allnet Texts",
+        "days": "7 days"
+    },
+    {
+        "code": "TRIVID449",
+        "desc": "12GB 1 GB VIDEO EVERY DAY for YouTube, Netflix, iWantTFC, Unli Allnet Calls & Unli Allnet Texts",
+        "days": "30 days"
+    },
+    {
+        "code": "TRISTOR75",
+        "desc": "4 GB + 1 GB STORIES ARAW-ARAW para sa TikTok, IG, FB, X, Kumu (3 GB) + FREE UNLI CALLS & TEXTS. Enjoy DOBLE DATA with FREE EXTRA 4 GB for all sites and apps",
+        "days": "3 days"
+    },
+    {
+        "code": "TRISTOR149",
+        "desc": "8 GB + 1 GB STORIES ARAW-ARAW para sa TikTok, IG, FB, X, Kumu (7 GB) + FREE UNLI CALLS & TEXTS. Enjoy DOBLE DATA with FREE EXTRA 8 GB for all sites and apps",
+        "days": "7 days"
+    },
+    {
+        "code": "TRISTOR449",
+        "desc": "12GB + 1GB Stories araw-araw for TikTok, IG, FB, X, Kumu (30 GB) + Free Unli Calls & Texts",
+        "days": "30 days"
+    },
+    {
+        "code": "POWER449",
+        "desc": "FREE UNLI TikTok + 20 GB + Unli Calls & Texts",
+        "days": "30 days"
+    },
+    {
+        "code": "POWER749",
+        "desc": "FREE UNLI TikTok + 40 GB + Unli Calls & Texts",
+        "days": "60 days"
+    },
+    {
+        "code": "POWER899",
+        "desc": "FREE UNLI TikTok + 60 GB + Unli Calls & Texts",
+        "days": "90 days"
+    },
+    {
+        "code": "PROMO200",
+        "desc": "Promo Load P200 + FREE P22",
+        "days": "30 days"
+    },
+    {
+        "code": "PROMO300",
+        "desc": "Promo Load P300 + FREE P33",
+        "days": "30 days"
+    },
+    {
+        "code": "PROMO500",
+        "desc": "Promo Load P500 + FREE P55",
+        "days": "30 days"
+    },
+    {
+        "code": "PROMO1000",
+        "desc": "PROMO LOAD P1000 + FREE P150 (Non-shareable and can\u2019t be used for Value-Added Services)",
+        "days": "60 days"
+    },
+    {
+        "code": "PROMO3000",
+        "desc": "PROMO LOAD P3000 + FREE P500 (Non-shareable and can\u2019t be used for Value-Added Services)",
+        "days": "60 days"
+    },
+    {
+        "code": "PROMO5000",
+        "desc": "PROMO LOAD P5000 + FREE P1000 (Non-shareable and can\u2019t be used for Value-Added Services)",
+        "days": "180 days"
+    },
+    {
+        "code": "TTS50",
+        "desc": "Unli TikTok + 3GB + Unli Allnet Calls & Unli Allnet Texts",
+        "days": "3 days"
+    },
+    {
+        "code": "MGCMETA99",
+        "desc": "3 GB for FB, Messenger, IG & WhatsApp",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MGCMETA199",
+        "desc": "9 GB for FB, Messenger, IG & WhatsApp",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MGCMETA399",
+        "desc": "36 GB for FB, Messenger, IG & WhatsApp",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MGOOGLE99",
+        "desc": "3 GB for YouTube, Gmail, Waze and other Google Apps",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MGOOGLE199",
+        "desc": "9 GB for YouTube, Gmail, Waze and other Google Apps",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MGOOGLE399",
+        "desc": "36 GB for YouTube, Gmail, Waze and other Google Apps",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MTIKTOK99",
+        "desc": "3 GB for TikTok",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MTIKTOK199",
+        "desc": "9 GB for TikTok",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MTIKTOK399",
+        "desc": "36 GB for TikTok",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MCALLS99",
+        "desc": "50 mins call to ANY mobile and landline",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MCALLS199",
+        "desc": "150 mins call to ANY mobile and landline",
+        "days": "No Expiry"
+    },
+    {
+        "code": "ANTLL50",
+        "desc": "Unli Allnet Calls + 30 Mins to LANDLINES + Unli Allnet Texts",
+        "days": "3 days"
+    },
+    {
+        "code": "ANTLL99",
+        "desc": "Unli Allnet Calls + 60 Mins to LANDLINES + Unli Allnet Texts",
+        "days": "7 days"
+    },
+    {
+        "code": "ANTLL299",
+        "desc": "Unli Allnet Calls + 60 Mins to LANDLINES + Unli Allnet Texts",
+        "days": "30 days"
+    },
+    {
+        "code": "AA99",
+        "desc": "7GB mobile data + 2GB for Facebook",
+        "days": "15 days"
+    },
+    {
+        "code": "AAP99",
+        "desc": "5GB mobile data + Unli calls + Unli Allnet Texts",
+        "days": "15 days"
+    },
+    {
+        "code": "SAYAALL99",
+        "desc": "6 GB UNLI TikTok + NOW w\/ UNLI FB & MLBB, Unli Allnet Calls & Unli Allnet Texts",
+        "days": "7 days"
+    },
+    {
+        "code": "SAYAALL149",
+        "desc": "UNLI 5G (Exclusively for 5G Certified Devices in 5G Exclusive Locations) for 7 days + 12 GB, UNLI TikTok + NOW w\/ UNLI FB & MLBB, Unli Allnet Calls & Unli Allnet Texts",
+        "days": "7 days"
+    },
+    {
+        "code": "SAYAALL449",
+        "desc": "20GB Open Access, Unli TikTok + now w\/ Unli FB & MLBB, Unli Allnet Calls & Unli Allnet Texts",
+        "days": "28 days"
+    },
+    {
+        "code": "RLITE150",
+        "desc": "100MB Open Access",
+        "days": "1 day"
+    },
+    {
+        "code": "RLITE250",
+        "desc": "200MB Open Access",
+        "days": "3 days"
+    },
+    {
+        "code": "ROAMFB150",
+        "desc": "100MB for FB, Messenger",
+        "days": "1 day"
+    },
+    {
+        "code": "ROAMFB250",
+        "desc": "200MB for FB, Messenger",
+        "days": "3 days"
+    },
+    {
+        "code": "GROAM699",
+        "desc": "1GB Open access",
+        "days": "5 days"
+    },
+    {
+        "code": "GROAM1899",
+        "desc": "3GB Open access",
+        "days": "15 days"
+    },
+    {
+        "code": "GROAM4899",
+        "desc": "15GB Open access",
+        "days": "90 days"
+    },
+    {
+        "code": "FBCHAT50",
+        "desc": "500MB Araw-araw for FB,IG & WhatsApp",
+        "days": "7 days"
+    },
+    {
+        "code": "PANALO10",
+        "desc": "300MB 60 Allnet Mins, 60 Allnet Texts",
+        "days": "1 day"
+    },
+    {
+        "code": "PANALO15",
+        "desc": "600MB 120 Allnet Mins, 120 Allnet Texts",
+        "days": "1 day"
+    },
+    {
+        "code": "PANALO20",
+        "desc": "1 GB Open Access, 250 Allnet Mins & 250 Allnet Texts",
+        "days": "1 day"
+    },
+    {
+        "code": "PANALO30",
+        "desc": "1GB 240 Allnet Mins, 240 Allnet Texts",
+        "days": "2 days"
+    },
+    {
+        "code": "SST10",
+        "desc": "30 Minutes of Unli FB, IG & TikTok",
+        "days": "30 minutes"
+    },
+    {
+        "code": "SST20",
+        "desc": "60 Minutes of Unli FB, IG & TikTok",
+        "days": "60 minutes"
+    },
+    {
+        "code": "SST40",
+        "desc": "120 Minutes of Unli FB, IG & TikTok",
+        "days": "120 minutes"
+    },
+    {
+        "code": "NSD75",
+        "desc": "UNLI 5G (Exclusively for 5G Certified Devices in 5G Exclusive Locations) + Non-Stop Data when you move to Non-5G areas",
+        "days": "30 days"
+    },
+    {
+        "code": "NSD249",
+        "desc": "UNLI 5G (Exclusively for 5G Certified Devices in 5G Exclusive Locations) + Non-Stop Data when you move to Non-5G areas",
+        "days": "30 days"
+    },
+    {
+        "code": "NSD749",
+        "desc": "UNLI 5G (Exclusively for 5G Certified Devices in 5G Exclusive Locations) + Non-Stop Data when you move to Non-5G areas",
+        "days": "30 days"
+    },
+    {
+        "code": "NSD949",
+        "desc": "UNLI 5G (Exclusively for 5G Certified Devices in 5G Exclusive Locations) + Non-Stop Data when you move to Non-5G areas & Unli Allnet Calls & Unli Allnet Texts",
+        "days": "30 days"
+    },
+    {
+        "code": "VIDEO5",
+        "desc": "Up to 1 hour access to vlogs and other short videos via Watchapp",
+        "days": "1 hour"
+    },
+    {
+        "code": "VIDEO10",
+        "desc": "Access to 1 full length regular movie via Watchapp",
+        "days": "1 day"
+    },
+    {
+        "code": "VIDEO15",
+        "desc": "Access to 1 full length premium movie via Watchapp",
+        "days": "1 day"
+    },
+    {
+        "code": "NSD85",
+        "desc": "UNLI 5G (Exclusively for 5G Certified Devices in 5G Exclusive Locations)+ NON-STOP DATA when you move to Non-5G areas",
+        "days": "3 days"
+    },
+    {
+        "code": "NSD185",
+        "desc": "UNLI 5G (Exclusively for 5G Certified Devices in 5G Exclusive Locations)+ NON-STOP DATA when you move to Non-5G areas",
+        "days": "7 days"
+    },
+    {
+        "code": "NSD360",
+        "desc": "UNLI 5G (Exclusively for 5G Certified Devices in 5G Exclusive Locations)+ NON-STOP DATA when you move to Non-5G areas",
+        "days": "15 days"
+    },
+    {
+        "code": "SAYA25",
+        "desc": "400MB Open access, 250 MB ARAW-ARAW for TikTok, IG, FB, ML, Unli Allnet Calls & Texts",
+        "days": "2 days"
+    },
+    {
+        "code": "SAYA35",
+        "desc": "900MB Open access, 500 MB ARAW-ARAW for TikTok, IG, FB, ML, Unli Allnet Calls & Texts",
+        "days": "3 days"
+    },
+    {
+        "code": "SAYA50",
+        "desc": "UNLI TikTok,Open access 3 GB + 2 GB 5G, Unli Allnet Calls & Unli texts",
+        "days": "3 days"
+    },
+    {
+        "code": "VAD5",
+        "desc": "Access to 1 movie episode via watchapp.ph within 6 hours",
+        "days": ""
+    },
+    {
+        "code": "MAD149",
+        "desc": "3GB Open Access Data",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MAD249",
+        "desc": "8GB Open Access Data",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MAD349",
+        "desc": "16GB Open Access Data",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MAD449",
+        "desc": "26 GB Open Access Data",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MAD549",
+        "desc": "38 GB Open Access Data",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MAD649",
+        "desc": "50 GB Open Access Data",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MAD749",
+        "desc": "65 GB Open Access Data",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MADP199",
+        "desc": "3 GB + 1 GB 5G 50 MINS CALLS to ANY mobile and landline & 50 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MADP299",
+        "desc": "8 GB + 2 GB 5G 100 MINS CALLS to ANY mobile and landline & 100 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MADP399",
+        "desc": "16 GB + 3 GB 5G 150 MINS CALLS to ANY mobile and landline & 150 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MADP499",
+        "desc": "26 GB + 4 GB 5G 200 MINS CALLS to ANY mobile and landline & 200 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MADP699",
+        "desc": "44 GB + 6 GB 5G 300 MINS CALLS to ANY mobile and landline & 300 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MADP799",
+        "desc": "56 GB + 8 GB 5G 600 MINS CALLS to ANY mobile and landline & 600 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "MADP899",
+        "desc": "75 GB + 10 GB 5G 900 MINS CALLS to ANY mobile and landline & 900 Allnet Texts",
+        "days": "No Expiry"
+    },
+    {
+        "code": "NSD55",
+        "desc": "UNLI 5G + NON-STOP 4G DATA + UNLI CALLS & TEXTS",
+        "days": "1 day"
+    },
+    {
+        "code": "NSD115",
+        "desc": "UNLI 5G + NON-STOP 4G DATA + UNLI CALLS & TEXTS",
+        "days": "3 days"
+    },
+    {
+        "code": "NSD225",
+        "desc": "UNLI 5G + NON-STOP 4G DATA + UNLI CALLS & TEXTS",
+        "days": "7 days"
+    },
+    {
+        "code": "NSD799",
+        "desc": "UNLI 5G + NON-STOP 4G DATA + UNLI CALLS & TEXTS",
+        "days": "28 days"
+    },
+    {
+        "code": "AAD50",
+        "desc": "1GB\/Day, 50 Texts and 5 Mins Calls to Mobile",
+        "days": "3 days"
+    },
+    {
+        "code": "AAD75",
+        "desc": "1.5GB\/Day, 50 Texts and 5 Mins Calls to Mobile",
+        "days": "3 days"
+    },
+    {
+        "code": "AAD105",
+        "desc": "1GB\/Day, 100 Texts and 10 Mins calls to Mobile",
+        "days": "7 days"
+    },
+    {
+        "code": "SAYAALL99",
+        "price": 99,
+        "days": "7 days",
+        "desc": "6 GB UNLI TikTok + NOW w\/ UNLI FB & MLBB, Unli Allnet Calls & Unli Allnet Texts"
+    }
+]
