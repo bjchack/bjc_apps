@@ -10,6 +10,7 @@ body {
   font-family: Arial, sans-serif;
   background: #111;
   color: white;
+  transition: all 0.3s ease;
 }
 header {
   display: flex;
@@ -59,7 +60,6 @@ header h1 {
 .dropdown a:hover {
   background: #333;
 }
-
 /* Dashboard grid */
 .dashboard {
   display: grid;
@@ -78,7 +78,7 @@ header h1 {
   justify-content: center;
   aspect-ratio: 1/1;
   transition: 0.2s;
-  text-decoration: none; /* <- dito tanggalin underline sa link */
+  text-decoration: none;
 }
 .button-box:hover {
   background: #333;
@@ -95,28 +95,49 @@ header h1 {
   text-align: center;
   word-wrap: break-word;
   color: white;
-  text-shadow: 1px 1px 2px #000; /* subtle shadow */
-  text-decoration: none; /* <- tanggalin underline */
+  text-shadow: 1px 1px 2px #000;
+  text-decoration: none;
+}
+
+/* Loading Screen */
+#loadingScreen {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#111;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index:9999;
+  font-size:20px;
+}
+
+/* Offline Message */
+#offlineMsg {
+  display:none;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background:red;
+  color:white;
+  text-align:center;
+  padding:8px;
+  z-index:9999;
+  font-size:14px;
 }
 </style>
 </head>
 <body>
-<div id="loadingScreen" style="
-position:fixed;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:#111;
-color:white;
-display:flex;
-justify-content:center;
-align-items:center;
-z-index:9999;
-font-size:20px;
-">
-  Loading BJC App...
-</div>
+
+<!-- Loading Screen -->
+<div id="loadingScreen">Loading BJC App...</div>
+
+<!-- Offline Notification -->
+<div id="offlineMsg">⚠️ No Internet - Offline Mode</div>
+
 <header>
   <h1>BJC Dashboard</h1>
   <button class="menu-btn" onclick="toggleDropdown()">☰</button>
@@ -133,39 +154,35 @@ font-size:20px;
   <a href="eload.html" class="button-box"><img src="icons/eload.png" alt="E-Load"><span>E-Load</span></a>
   <a href="soon.html" class="button-box"><img src="icons/epins.png" alt="e-PINs"><span>e-PINs</span></a>
   <a href="soon.html" class="button-box"><img src="icons/direct.png" alt="Direct Loading"><span>Direct Loading</span></a>
-
   <a href="cable.html" class="button-box"><img src="icons/cable.png" alt="Product Codes"><span>Cable</span></a>
   <a href="wifi.html" class="button-box"><img src="icons/fiber.png" alt="WIFI/Fiber"><span>WIFI/Fiber</span></a>
   <a href="soon.html" class="button-box"><img src="icons/streaming.png" alt="Streaming"><span>Streaming</span></a>
-
   <a href="utility.html" class="button-box"><img src="icons/bills.png" alt="Utility / Bills"><span>Utility / Bills</span></a>
   <a href="soon.html" class="button-box"><img src="icons/peso.png" alt="Peso Credit (PC)"><span>Peso Credit (PC)</span></a>
   <a href="history.html" class="button-box"><img src="icons/history.png" alt="Load History"><span>Load History</span></a>
-
   <a href="soon.html" class="button-box"><img src="icons/gateway.png" alt="Gateways"><span>Gateways</span></a>
   <a href="soon.html" class="button-box"><img src="icons/health.png" alt="Konsulta MD"><span>Konsulta MD</span></a>
   <a href="refund.html" class="button-box"><img src="icons/refund.png" alt="Refund"><span>Refund</span></a>
-
   <a href="contacts.html" class="button-box"><img src="icons/contacts.png" alt="Contacts"><span>Contacts</span></a>
   <a href="soon.html" class="button-box"><img src="icons/collectibles.png" alt="Collectibles"><span>Collectibles</span></a>
   <a href="bal.html" class="button-box"><img src="icons/balance.png" alt="Balance"><span>Balance</span></a>
-
   <a href="activate.html" class="button-box"><img src="icons/activate.png" alt="Activate SIM"><span>Activate SIM</span></a>
   <a href="product.html" class="button-box"><img src="icons/product.png" alt="Product Codes"><span>Product Codes</span></a>
 </div>
 
-  <script>
+<!-- SERVICE WORKER -->
+<script>
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("/bjc_eloading/sw.js");
 }
-  </script>
-  
+</script>
+
+<!-- Dropdown Menu Script -->
 <script>
 function toggleDropdown() {
   const menu = document.getElementById('menuDropdown');
   menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
 }
-// Close dropdown kung mag click sa labas
 window.onclick = function(event) {
   if(!event.target.matches('.menu-btn')) {
     const dropdowns = document.getElementById('menuDropdown');
@@ -175,14 +192,42 @@ window.onclick = function(event) {
   }
 }
 </script>
+
+<!-- Loading Screen Script -->
+<script>
+window.addEventListener("load", function(){
+  setTimeout(() => {
+    document.getElementById("loadingScreen").style.display = "none";
+  }, 1000);
+});
+</script>
+
+<!-- Offline Message Script -->
+<script>
+function updateOnlineStatus() {
+  const msg = document.getElementById("offlineMsg");
+  if (!navigator.onLine) {
+    msg.style.display = "block";
+  } else {
+    msg.style.display = "none";
+  }
+}
+window.addEventListener("online", updateOnlineStatus);
+window.addEventListener("offline", updateOnlineStatus);
+updateOnlineStatus();
+</script>
+
+<!-- Version Info -->
 <script src="update.js"></script>
 <div id="versionInfo" style="color:white; text-align:center; margin-top:10px; font-family:sans-serif;">
   Current Version: <span id="currentVersion"></span> |
   Latest Version: <span id="latestVersion"></span>
   <span id="updateBadge" style="display:none; color:#ff9800; font-weight:bold; margin-left:10px; cursor:pointer;">New Update!</span>
 </div>
+
 <footer style="text-align:center; padding:15px; background:#111; color:#fff;">
 © 2026 BJC Eload | All Rights Reserved
 </footer>
+
 </body>
 </html>
