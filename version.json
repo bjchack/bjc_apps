@@ -1,6 +1,9 @@
 {
-  "version": "1.2",
-  "html": ["tool.html","index.html"],
-  "css": "style.css",
-  "js": ["script.js","update.js"]
+  "version": "1.1",
+  "files": [
+    "index.html",
+    "eload.html",
+    "script.js",
+    "style.css"
+  ]
 }
